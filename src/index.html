@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body class="container mx-auto ">
+
+    <head class="flex top-0 left-0 w-full z-50 ">
+        <nav class=" container mx-auto relative flex justify-between items-center h-14 ">
+            <div>
+                <a href="" class="text-2xl uppercase">snack<span class="text-orange-500 font-roboto">SAAD</span></a>
+
+            </div>
+
+            <div id="menu"
+                class=" hidden absolute w-full top-0 left-0 border-b py-14 bg-orange-300 border-white  md:block md:static md:py-5 md:border-none ">
+                <ul class=" flex flex-col text-center  gap-5  md:flex-row md:items-center md:justify-center md:gap-5 ">
+                    <li><a href="#home" class="menu_link font-roboto hover:text-yellow-200 ease-in duration-300">Home</a>
+                    </li>
+                    <li><a href="#cataloges" class="menu_link font-roboto hover:text-yellow-200 ease-in duration-300">About
+                            Us</a></li>
+                    <li><a href="#produit" class="menu_link font-roboto hover:text-yellow-200 ease-in duration-300">Menu</a>
+                    </li>
+                    <li><a href="#reviews" class="menu_link font-roboto hover:text-yellow-200 ease-in duration-300">Review</a>
+                    </li>
+                    <li><a href="#" class="menu_link font-roboto hover:text-yellow-200 ease-in duration-300">Contact</a>
+                    </li>
+
+                </ul>
+                <div class="absolute top-1 right-1  ">
+                    <i class="md:hidden" id="close"><iconify-icon icon="ri:close-line" width="30"></iconify-icon></i>
+                </div>
+
+            </div>
+            <div class="flex items-center gap-7 ">
+                <i id="darkbtn"><iconify-icon icon="ic:round-dark-mode" width="25"></iconify-icon></i>
+                <div>
+                    <i class="md:hidden" id="iconMonu"><iconify-icon icon="ep:menu" width="25"></iconify-icon></i>
+                </div>
+            </div>
+
+        </nav>
+    </head>
+    <main>
+        <!-- home -->
+        <section id="home" >
+            <div class="container mx-auto flex flex-col items-center justify-center gap-10 md:flex-row">
+                <div class=" md:basis-1/2 lg:basis-2/5 animate-movingY">
+                    <img src="images/home-image.png" alt="home image" class=" h-60 w-full ">
+                </div>
+
+                <div
+                    class="box home__content flex-auto gap-5 text-center justify-center md:basis-1/2 md:text-start lg:basis-3/5 ">
+                    <h1 class="home__title">HAPPY TUMMY WITH TASTY BURGERS.</h1>
+                    <div class="separator mx-auto md:mx-0"></div>
+                    <p class="paragraph text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum,
+                        libero magni? Fugiat perspiciatis eius, sequi aliquid ullam dolorem temporibus voluptate
+                        corrupti
+                        fugit saepe sunt unde culpa? Tenetur quos quod laudantium.</p>
+
+                    <div class="flex justify-center items-center gap-5 md:gap-9  py-5 ">
+                        <div class="text-center">
+                            <i><iconify-icon icon="fa6-solid:utensils" width="25"
+                                    style="color:orangered;"></iconify-icon></i>
+                            <br>
+                            <h4 class="text-center">best food</h4>
+                        </div>
+                        <div class="text-center">
+                            <i class="text-4xl"><iconify-icon icon="maki:water" width="25"
+                                    style="color:orangered;"></iconify-icon></i>
+                            <br>
+                            <h4 class="text-center">Healthy food</h4>
+                        </div>
+                        <div class="text-center">
+                            <i><iconify-icon icon="fa6-brands:envira" width="25"
+                                    style="color:orangered;"></iconify-icon></i>
+                            <br>
+                            <h4 class="text-center">natural food</h4>
+
+                        </div>
+
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn"> learn more <iconify-icon class="btn-icon"
+                                icon="formkit:arrowright"></iconify-icon></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="cataloges">
+            <div class="cataloge container mx-auto  flex flex-col gap-5 lg:gap-10 lg:flex-row">
+                <!-- card 1 -->
+                <div
+                    class="card flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+                    <img src="images/promo-1.png" alt="promo image" class="img_Promo  mx-auto md:mx-5 ">
+
+
+                    <div class="space-y-2 pt-5 md:pt-0">
+                        <p class="text-promo text-xs">Payday promo</p>
+                        <h3 class="text-xl font-bold">GET A 10% DISCOUNT ON PAYDAY WEEK</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btnpromo text-xs ">Buy online</a>
+                    </div>
+                </div>
+                <div
+                    class="card1 flex flex-col p-5 rounded-lg md:flex-row md:items-center lg:flex-row-reverse lg:flex-1">
+                    <img src="images/promo-2.png" alt="promo image" class="img_Promo   mx-auto md:mx-5">
+
+
+                    <div class="space-y-2 pt-5 md:pt-0">
+                        <p class="text-promo text-xs">Payday promo</p>
+                        <h3 class="text-xl font-bold">GET A 10% DISCOUNT ON PAYDAY WEEK</h3>
+                        <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btnpromo text-xs ">Buy online</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id='produit'>
+            <div class="flex flex-col justify-center items-center text-center gap-5">
+                <h2 class="text_lg ">here the best products </h2>
+                <div class="line  mx-auto"></div>
+                <p class="text-center textproduit ">orem ipsum dolor sit amet consectetur adipisicing elit
+                    . Ipsam ad odio debitis vel cupiditate.
+                    Ducimus laudantium atque quo ex eligendi!
+                </p>
+                <div class=>
+                    <ul class="flex flex-wrap justify-center gap-5 w-full py-10">
+                        <li class="produit_menu active">bueger</li>
+                        <li class="produit_menu">pizza</li>
+                        <li class="produit_menu">taco</li>
+                        <li class="produit_menu">coca</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div>
+                <div>
+                    <ul class="produits grid grid-cols-1 gap-5 md:grid-cols-2  lg:grid-cols-4">
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/burger-6.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-3.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-4.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-5.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-5.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-6.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/beverage-1.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/beverage-4.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/beverage-5.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-1.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+                        <li class="produit flex flex-col place-items-start gap-5 p-5">
+                            <div class="h-45 grid place-items-center text-center lg:h-40">
+                                <img src="images/snack-2.png" alt="" class="w-40 md:w-48 lg:w-24">
+                            </div>
+                            <div class="flex flex-col gap-5 ">
+                                <p class="text_lg script_produit ">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, totam.
+                                </p>
+                                <span class="text-orange-500 px-5 prix">2,99 $</span>
+                            </div>
+                        </li>
+
+                        <!-- Add more li elements for additional products as needed -->
+
+                    </ul>
+                </div>
+
+
+
+
+
+        </section>
+        <section id="reviews">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+
+
+                        <div class="review flex flex-col gap-2 ">
+                            <p class="text-center font-mono"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptatum, ad esse. Nobis, fuga recusandae
+                                assumenda architecto unde voluptas perspiciatis distinctio!.</p>
+                            <div class="flex justify-between items-center">
+                                <div class="user">
+                                    <img src="images/review-1.jpg" alt="" class="review_img">
+                                    <p class="font-bold">AYOUB ELHARBA</p>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="font">
+                                    <i><iconify-icon icon="oi:double-quote-serif-right" style="color: yellow;"
+                                            width="30"></iconify-icon></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-slide">
+
+
+                        <div class="review flex flex-col gap-2 ">
+                            <p class="text-center font-mono"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptatum, ad esse. Nobis, fuga recusandae
+                                assumenda architecto unde voluptas perspiciatis distinctio!.</p>
+                            <div class="flex justify-between items-center">
+                                <div class="user">
+                                    <img src="images/review-2.jpg" alt="" class="review_img">
+                                    <p class="font-bold">HICHAM EL</p>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="font">
+                                    <i><iconify-icon icon="oi:double-quote-serif-right" style="color: yellow;"
+                                            width="30"></iconify-icon></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-slide">
+
+
+                        <div class="review flex flex-col gap-2 ">
+                            <p class="text-center font-mono"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptatum, ad esse. Nobis, fuga recusandae
+                                assumenda architecto unde voluptas perspiciatis distinctio!.</p>
+                            <div class="flex justify-between items-center">
+                                <div class="user">
+                                    <img src="images/review-3.jpg" alt="" class="review_img">
+                                    <p class="font-bold">DADI DANIAL</p>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="font">
+                                    <i><iconify-icon icon="oi:double-quote-serif-right" style="color: yellow;"
+                                            width="30"></iconify-icon></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-slide">
+
+
+                        <div class="review flex flex-col gap-2 ">
+                            <p class="text-center font-mono"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptatum, ad esse. Nobis, fuga recusandae
+                                assumenda architecto unde voluptas perspiciatis distinctio!.</p>
+                            <div class="flex justify-between items-center">
+                                <div class="user">
+                                    <img src="images/review-4.jpg" alt="" class="review_img">
+                                    <p class="font-bold">SAAD BOUDALI</p>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                                <div class="font">
+                                    <i><iconify-icon icon="oi:double-quote-serif-right" style="color: yellow;"
+                                            width="30"></iconify-icon></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+    </main>
+    <footer id="footer">
+        <section>
+            <div class=" text-center gap-5">
+                © 2024/2023 @Copyright
+            </div>
+        </section>
+    </footer>
+    <!-- scroll up -->
+
+    <button id="scrollToTopBtn" title="Go to top"><iconify-icon icon="grommet-icons:up"></iconify-icon></button>
+
+
+    <script src="./space.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 400,
+            spaceBetween: 30,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: true
+            },
+
+
+
+            grabCursor: true,
+            breakpoints: {
+                // when window width is >= 640px
+                640: {
+                    slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 1024px
+                1024: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
+    </script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
